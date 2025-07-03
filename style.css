@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', 'Ubuntu', Arial, sans-serif; /* Modern, bold, readable font */
+}
+
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo {
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+header {
+    background-color: rgb(2, 9, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: beige;
+}
+
+
+nav {
+    background-color:  rgb(2, 9, 54);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar {
+    background-color: rgb(2, 9, 54) !important;
+    gap: 12px;
+    margin-right: 17px;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size:large;
+}
+
+a:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    color: rgb(208, 200, 200);
+}
+
+.btn-outline-success{
+    font-size:large;
+    border-radius: 10px;
+    background-color: rgb(255, 89, 0);
+    width: 100px;
+    height: 35px;
+    color: beige;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn-outline-success:hover{
+    color: rgb(255, 89, 0);   
+    background-color: beige;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.landpage {
+    background-color: rgb(2, 9, 54);
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.landpage .search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.landpage .search-bar button {
+    border-radius: 9px;
+    width: 110px;
+    height: 35px;
+    background-color: rgb(255, 89, 0);
+    color: beige;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.landpage h1{
+    margin-bottom: 10px;
+    font-family: 'Rajdhani', 'Ubuntu', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.landpage h2 {
+    margin-top: -100px;
+    margin-bottom: 12px;
+    font-family: 'Ubuntu', Arial, sans-serif; 
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.landpage input, .landpage button {
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.landpage .search-bar input {
+    flex: 1 1 auto;
+    min-width: 0;
+    border-radius: 9px;
+    height: 35px;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.landpage .search-bar button {
+    border-radius: 9px;
+    width: 110px;
+    height: 35px;
+    background-color: rgb(255, 89, 0);
+    color: beige;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.landpage .search-bar button:hover {
+    color: rgb(255, 89, 0);   
+    background-color: beige;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.opening{
+    width: 60vh;
+    height: 50vh;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.opening:hover{
+     transform: scale(1.01);
+    transition: all 0.5s ease;
+}
+
+.highlighted {
+    font-weight:bolder;
+    color: #d4cda4; 
+}
+
+.highlighted:hover{
+     transform: scale(1.1);
+    transition: all 0.3s ease;
+    color: rgb(172, 141, 141);
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #111; 
+    padding: 10px;
+    list-style: none;
+}
+
+.Main{
+    padding: 0px 190px;
+}
+
+.Main .trending-header .btn{
+    width: 115px;
+    border-radius: 10px;
+    background-color: rgb(255, 89, 0);
+    width: 110px;
+    height: 30px;
+    color: beige;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Ubuntu', Arial, sans-serif; 
+}
+
+.Main .trending-header .btn:hover{
+    color:rgb(255, 89, 0);
+    background-color:beige;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.trending {
+  display: flex;
+  margin-top: 15px;
+  padding-top: 20px;
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.75);
+  font-weight: bold;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.trending-header .btn {
+  background-color: #ff5900;
+  color: white;
+  font-weight: 500;
+  padding: 8px 20px;
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.trending-header .btn:hover {
+  background-color: beige;
+  color: rgb(255, 89, 0);
+  transform: scale(1.05);
+}
+
+hr {
+  height: 0.7px;
+  width: 50px;
+  border: none;
+  margin: 0.15px auto; /* smaller vertical spacing */
+}
+
+@media only screen and (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100vh;
+    }
+
+    header {
+        background-color: rgb(2, 9, 54);
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .landpage {
+        background-color: rgb(2, 9, 54);
+        color: beige;
+        width: 100vw;
+        padding-bottom: 25px;
+        border-radius: 0 0 20px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landpage h1{
+    margin-bottom: 10px;
+    font-family: 'Rajdhani', 'Ubuntu', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+    .landpage h2 {
+        margin-top: 15px;
+        margin-bottom: 6px;
+        font-family: 'Ubuntu', Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+        border-radius: 15px;
+    }
+
+    .opening {
+        display: none;
+    }
+
+    .container {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    .dropdown-menu .dropdown-item {
+        font-size: smaller;
+    }
+
+    .landpage .search-bar {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        margin-top: 10px;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landpage .search-bar input {
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .landpage .search-bar button {
+        height: 30px;
+        font-size: 1rem;
+        width: 90px;
+    }
+
+    .btn.btn-outline-success {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    .navbar-nav {
+        gap: 5px;
+    }
+}
