@@ -7,30 +7,33 @@
   <title>Gamingo – Team Up & Win</title>
   <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.css"/>
   <link rel="stylesheet" href="style.css" />
-  
   <meta name="description" content="Find your ideal gaming teammates. Gamingo is the first platform in the Middle East to connect gamers for competitive and casual play.">
   <link rel="icon" href="images/msm.webp" type="image/webp">
 </head>
 <body>
 
   <div class="container">
-    <header>
-     <nav class="navbar navbar-expand-lg bg-rgb(2, 9, 54)">
-  <div class="container-fluid">
+
+  <header>
+
+  <nav class="navbar navbar-expand-lg container-fluid" style="background-color: rgb(2, 9, 54);">
+    
+    <!-- Logo (Left) -->
     <a class="navbar-brand" href="#">
-      <img class="logo" src="images/msm.webp" alt="Gamingo Logo"/>
+      <img src="images/msm.webp" alt="Gamingo Logo" class="logo">
     </a>
-    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+    <!-- Right: Menu + Sign In -->
+    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+      <ul class="navbar-nav me-3">
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
-            Find Teammates
-          </a>
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Find Teammates</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Join a Squad</a></li>
             <li><a class="dropdown-item" href="#">Find Players</a></li>
@@ -38,16 +41,11 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#price">Pricing</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
-            More
-          </a>
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Popular Games</a></li>
             <li><a class="dropdown-item" href="#">Tournaments</a></li>
@@ -58,15 +56,11 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
-
       </ul>
     </div>
-  </div>
   </nav>
-
-     <button class="btn-primary">Sign In</button>
-      </nav>
-    </header>
+  <a href="#" class="btn btn-primary">Sign In</a>
+</header>
 
     <section class="landpage">
       <div class="text-content">
@@ -95,7 +89,7 @@
   </div>
 
   
- 
+<div class="container">
 <div class="row overflow-auto">
   <div class="d-flex gap-2">
 
@@ -134,13 +128,13 @@
       <span class="rank-number">5</span>
 
   </div>
+
 </div>
-  </div>
-</div>
- 
 
-
-
+</section>
+<section id="price">
+  <h2>Our Pricing</h2>
+  <p>Choose a plan that fits your needs...</p>
 </section>
 
 
@@ -150,6 +144,8 @@
 
 
 
+
 <script src="bootstrap-5.3.7-dist/js/bootstrap.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
